@@ -3,7 +3,9 @@
 #include <map>
 #include <cctype>
 #include <sstream>
+#ifdef WIN32
 #include <conio.h>
+#endif
 
 using namespace std;
 
